@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'jazzmin',
     'blog',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -124,7 +125,7 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-JAZZMIN_SETTINGS = {
+"""JAZZMIN_SETTINGS = {
     "site_title": "My Blog Admin",
     "site_header": "My Blog Administration",
     "site_brand": "My Blog",
@@ -136,4 +137,4 @@ JAZZMIN_SETTINGS = {
         {"name": "Posts", "url": "/admin/blog/post/"},
         {"name": "Categories", "url": "/admin/blog/category/"},
     ]
-}
+}"""
